@@ -7,7 +7,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(../img/port1jpeg);
+   
     background-size: cover;
    background-position: center;
 }
@@ -28,7 +28,7 @@ nav{
     cursor: pointer;
 }
 span{
-    color:#f9004d
+    color:  #1af22c;
 }
 nav ul li{
     list-style-type: none;
@@ -42,11 +42,11 @@ nav ul li a{
     text-transform: capitalize;
 }
 nav ul li a:hover{
-    color: #f9004d;
+    color: #1af22c;
     transition: .45;
 }
 .btn{
-    background-color: #f9004d;
+    background-color: #1af22c;
     color: white;
     text-decoration: none;
     border:2px transparent;
@@ -57,4 +57,25 @@ nav ul li a:hover{
 }
 .btn:hover{
     transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform:translateY(-50%)
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
